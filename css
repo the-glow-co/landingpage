@@ -1,0 +1,36 @@
+nav {
+	display: grid;
+	grid-template-columns: 10fr 1fr;
+}
+
+a {
+  color: black;
+	text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 40%; 
+}
+
+#right {
+/*used for aligning the inner content of a block element */
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 40%; 
+	
+}
+
+img[alt="social-icon"] {
+	width: 50px;
+}
+
+img[alt="logo"] {
+	width: 80px;
+	
+}
